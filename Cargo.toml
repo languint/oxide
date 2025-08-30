@@ -1,4 +1,6 @@
 [workspace]
 resolver = "3"
+members = ["oxide-core"]
 
 [workspace.dependencies]
+oxide-core = { path = "oxide-core" }
