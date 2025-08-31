@@ -1,5 +1,7 @@
+use crate::board::Bitboard;
+
 // Taken from: https://rustic-chess.org/board_representation/bitboards.html
-pub fn print_bitboard(bitboard: u64) {
+pub fn print_bitboard(bitboard: Bitboard) {
     const LAST_BIT: u64 = 63;
     for rank in 0..8 {
         for file in (0..8).rev() {
